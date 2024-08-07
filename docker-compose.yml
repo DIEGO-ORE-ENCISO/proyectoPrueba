@@ -8,9 +8,8 @@ services:
     ports:
       - "8080:8080"
     environment:
-      - SPRING_DATASOURCE_URL=jdbc:mysql://root:JCMLcldAmgeDEzJQPaoavkLQWhhdDEuX@mysql.railway.internal:3306/railway
+      - SPRING_DATASOURCE_URL=jdbc:mysql://root:JCMLcldAmgeDEzJQPaoavkLQWhhdDEuX@monorail.proxy.rlwy.net:42272/railway
       - SPRING_DATASOURCE_USERNAME=root
       - SPRING_DATASOURCE_PASSWORD=JCMLcldAmgeDEzJQPaoavkLQWhhdDEuX
       - SPRING_JPA_HIBERNATE_DDL_AUTO=update
       - SPRING_JPA_SHOW_SQL=true
-      - SPRING_JPA_PROPERTIES_HIBERNATE_DIALECT=org.hibernate.dialect.MySQL8Dialect
