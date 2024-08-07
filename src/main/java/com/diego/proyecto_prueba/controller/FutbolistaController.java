@@ -10,7 +10,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://proyecto-ee9d5.web.app")
 public class FutbolistaController {
 
     @Autowired
