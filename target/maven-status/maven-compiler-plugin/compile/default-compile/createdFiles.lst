@@ -1,0 +1,5 @@
+com\diego\proyecto_prueba\interfaces\IFutbilistas.class
+com\diego\proyecto_prueba\entity\Futbolistas.class
+com\diego\proyecto_prueba\service\FutbolistaService.class
+com\diego\proyecto_prueba\controller\FutbolistaController.class
+com\diego\proyecto_prueba\ProyectoPruebaApplication.class
