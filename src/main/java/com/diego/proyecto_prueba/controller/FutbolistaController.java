@@ -10,7 +10,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api")
-@CrossOrigin(origins = "https://proyecto-ee9d5.web.app")
+@CrossOrigin(origins = "https://proyecto-angular-prueba.netlify.app")
 public class FutbolistaController {
 
     @Autowired
