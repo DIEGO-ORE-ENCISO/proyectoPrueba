@@ -13,3 +13,4 @@ services:
       - SPRING_DATASOURCE_PASSWORD=y8aJ8zKWxq7NhHW6L1Gp
       - SPRING_JPA_HIBERNATE_DDL_AUTO=update
       - SPRING_JPA_SHOW_SQL=true
+      - SPRING_JPA_DATABASE_PLATFORM=org.hibernate.dialect.MySQLDialect
